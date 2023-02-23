@@ -523,3 +523,6 @@ game.onUpdate(function () {
         Hops_and_Paw.setImage(Hops_and_Paw.image)
     }
 })
+forever(function () {
+    music.play(music.createSong(assets.song`bgm`), music.PlaybackMode.UntilDone)
+})
